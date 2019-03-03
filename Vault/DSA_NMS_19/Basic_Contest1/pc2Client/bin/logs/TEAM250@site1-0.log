@@ -1,0 +1,54 @@
+181015 073938.526|CONFIG|Thread-7|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+181015 073938.526|INFO|Thread-7|info|
+181015 073938.526|INFO|Thread-7|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+181015 073938.526|INFO|Thread-7|info|Login: team250 (aka team250)
+181015 073938.526|INFO|Thread-7|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+181015 073938.526|INFO|Thread-7|startLog|Process id is 7900@NguyenManhSon
+181015 073938.526|INFO|Thread-7|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+181015 073938.558|INFO|Thread-7|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+181015 073938.808|INFO|Thread-7|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+181015 073938.823|INFO|Thread-7|info|handlePacket end Packet[LOGIN_SUCCESS] #1351 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 073938.823|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #1351 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074003.775|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for N Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Contest2\src\contest2\N.java
+181015 074003.775|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM250 @ site 1 -> SERVER0 @ site 1
+181015 074003.775|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM250 @ site 1 -> SERVER0 @ site 1
+181015 074003.947|INFO|Thread-10|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1353 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074003.947|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1353 ) recieveObject
+181015 074003.947|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074003.947|INFO|Thread-10|dumpPacket|    To: TEAM250 @ site 1
+181015 074003.947|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 488 QUEUED_FOR_COMPUTER_JUDGEMENT 2320 min 139207748ms from TEAM250 @ site 1 id Run-5443344013540470605 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074003.947|INFO|Thread-10|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1353 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074003.947|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1353 ) handlePacket
+181015 074003.947|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074003.947|INFO|Thread-10|dumpPacket|    To: TEAM250 @ site 1
+181015 074003.947|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 488 QUEUED_FOR_COMPUTER_JUDGEMENT 2320 min 139207748ms from TEAM250 @ site 1 id Run-5443344013540470605 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074009.977|INFO|Thread-10|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1353 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074116.021|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for N Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Contest2\src\contest2\N.java
+181015 074116.021|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM250 @ site 1 -> SERVER0 @ site 1
+181015 074116.021|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM250 @ site 1 -> SERVER0 @ site 1
+181015 074116.146|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1361 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074116.146|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1361 ) recieveObject
+181015 074116.146|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074116.146|INFO|Thread-12|dumpPacket|    To: TEAM250 @ site 1
+181015 074116.146|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 489 QUEUED_FOR_COMPUTER_JUDGEMENT 2321 min 139279939ms from TEAM250 @ site 1 id Run--8538919837549105278 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074116.146|INFO|Thread-12|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1361 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074116.146|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1361 ) handlePacket
+181015 074116.146|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074116.146|INFO|Thread-12|dumpPacket|    To: TEAM250 @ site 1
+181015 074116.146|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 489 QUEUED_FOR_COMPUTER_JUDGEMENT 2321 min 139279939ms from TEAM250 @ site 1 id Run--8538919837549105278 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074119.068|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1361 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074124.552|INFO|Thread-13|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1368 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #1368 ) recieveObject
+181015 074124.552|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074124.552|INFO|Thread-13|dumpPacket|    To: TEAM250 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 489 JUDGED 2321 min 139279939ms from TEAM250 @ site 1 id Run--8538919837549105278 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-8607022986480494645 id JudgementRecord--2269908281489249684
+181015 074124.552|INFO|Thread-13|info|handlePacket start Packet[RUN_JUDGEMENT] #1368 SERVER0 @ site 1 -> TEAM250 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #1368 ) handlePacket
+181015 074124.552|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 074124.552|INFO|Thread-13|dumpPacket|    To: TEAM250 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 489 JUDGED 2321 min 139279939ms from TEAM250 @ site 1 id Run--8538919837549105278 problem N-3013647527015807878 lang Java--6119254954739623805
+181015 074124.552|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE4 @ site 1 judgement Yes-8607022986480494645 id JudgementRecord--2269908281489249684
+181015 074147.682|INFO|Thread-13|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1368 SERVER0 @ site 1 -> TEAM250 @ site 1

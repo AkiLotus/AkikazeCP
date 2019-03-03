@@ -1,0 +1,10 @@
+C:\Users\pkcor\source\repos\monopoly\monopoly\bin\Debug\monopoly.exe.config
+C:\Users\pkcor\source\repos\monopoly\monopoly\bin\Debug\monopoly.exe
+C:\Users\pkcor\source\repos\monopoly\monopoly\bin\Debug\monopoly.pdb
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.csprojAssemblyReference.cache
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.mainForm.resources
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.csproj.GenerateResource.cache
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.csproj.CoreCompileInputs.cache
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.exe
+C:\Users\pkcor\source\repos\monopoly\monopoly\obj\Debug\monopoly.pdb

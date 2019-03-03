@@ -1,0 +1,305 @@
+180606 081946.018|CONFIG|Thread-5|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+180606 081946.018|INFO|Thread-5|info|
+180606 081946.018|INFO|Thread-5|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+180606 081946.018|INFO|Thread-5|info|Login: team71 (aka team71)
+180606 081946.018|INFO|Thread-5|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+180606 081946.018|INFO|Thread-5|startLog|Process id is 17012@NguyenManhSon
+180606 081946.018|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 081946.028|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 081946.248|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+180606 081946.248|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #314 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 081946.248|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #314 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082001.275|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for J Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\J.java
+180606 082001.285|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082001.285|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082001.367|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #316 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082001.367|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #316 ) recieveObject
+180606 082001.367|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082001.368|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 082001.368|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 26 QUEUED_FOR_COMPUTER_JUDGEMENT 1250 min 75018611ms from TEAM71 @ site 1 id Run--8050195727826203343 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082001.368|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #316 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082001.368|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #316 ) handlePacket
+180606 082001.368|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082001.369|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 082001.370|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 26 QUEUED_FOR_COMPUTER_JUDGEMENT 1250 min 75018611ms from TEAM71 @ site 1 id Run--8050195727826203343 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082002.735|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #320 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082002.735|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #320 ) recieveObject
+180606 082002.735|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082002.735|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 082002.735|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082002.735|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 26 JUDGED 1250 min 75018611ms from TEAM71 @ site 1 id Run--8050195727826203343 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082002.735|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2525371793430308656 id JudgementRecord--8962936757610549502
+180606 082002.735|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #320 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082002.735|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #320 ) handlePacket
+180606 082002.735|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082002.735|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 082002.735|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082002.745|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 26 JUDGED 1250 min 75018611ms from TEAM71 @ site 1 id Run--8050195727826203343 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082002.745|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2525371793430308656 id JudgementRecord--8962936757610549502
+180606 082003.786|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #320 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082004.825|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #316 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082111.369|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for J Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\J.java
+180606 082111.371|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082111.371|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082111.475|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #322 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082111.475|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #322 ) recieveObject
+180606 082111.475|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082111.475|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 082111.475|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 QUEUED_FOR_COMPUTER_JUDGEMENT 1251 min 75088684ms from TEAM71 @ site 1 id Run-6546320739473849431 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082111.475|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #322 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082111.475|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #322 ) handlePacket
+180606 082111.475|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082111.475|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 082111.475|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 QUEUED_FOR_COMPUTER_JUDGEMENT 1251 min 75088684ms from TEAM71 @ site 1 id Run-6546320739473849431 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082112.825|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #322 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082113.345|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #326 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082113.345|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #326 ) recieveObject
+180606 082113.345|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082113.345|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 082113.345|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082113.345|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 JUDGED 1251 min 75088684ms from TEAM71 @ site 1 id Run-6546320739473849431 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082113.345|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--4379974448520184137
+180606 082113.345|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #326 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082113.345|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #326 ) handlePacket
+180606 082113.345|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082113.355|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 082113.355|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082113.355|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 JUDGED 1251 min 75088684ms from TEAM71 @ site 1 id Run-6546320739473849431 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 082113.355|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--4379974448520184137
+180606 082114.465|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #326 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082822.614|CONFIG|Thread-5|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+180606 082822.614|INFO|Thread-5|info|
+180606 082822.614|INFO|Thread-5|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+180606 082822.614|INFO|Thread-5|info|Login: team71 (aka team71)
+180606 082822.614|INFO|Thread-5|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+180606 082822.614|INFO|Thread-5|startLog|Process id is 16824@NguyenManhSon
+180606 082822.614|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 082822.624|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 082822.856|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+180606 082822.856|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #343 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082822.856|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #343 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082835.545|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for L Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\L.java
+180606 082835.545|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082835.545|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 082835.634|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082835.634|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #345 ) recieveObject
+180606 082835.634|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082835.634|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 082835.634|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 QUEUED_FOR_COMPUTER_JUDGEMENT 1258 min 75532868ms from TEAM71 @ site 1 id Run--7184982213296926149 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 082835.634|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082835.634|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #345 ) handlePacket
+180606 082835.634|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082835.634|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 082835.634|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 QUEUED_FOR_COMPUTER_JUDGEMENT 1258 min 75532868ms from TEAM71 @ site 1 id Run--7184982213296926149 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 082836.635|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082837.005|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #349 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082837.005|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #349 ) recieveObject
+180606 082837.005|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082837.005|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 082837.005|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082837.005|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 JUDGED 1258 min 75532868ms from TEAM71 @ site 1 id Run--7184982213296926149 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 082837.005|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2525371793430308656 id JudgementRecord-7653797849671703937
+180606 082837.005|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #349 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 082837.005|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #349 ) handlePacket
+180606 082837.005|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 082837.005|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 082837.005|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 082837.014|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 30 JUDGED 1258 min 75532868ms from TEAM71 @ site 1 id Run--7184982213296926149 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 082837.014|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2525371793430308656 id JudgementRecord-7653797849671703937
+180606 082838.044|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #349 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083449.465|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for L Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\L.java
+180606 083449.465|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 083449.465|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 083449.564|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #376 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083449.564|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #376 ) recieveObject
+180606 083449.564|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 083449.564|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 083449.564|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 34 QUEUED_FOR_COMPUTER_JUDGEMENT 1265 min 75906795ms from TEAM71 @ site 1 id Run-2476936345005192550 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 083449.564|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #376 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083449.564|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #376 ) handlePacket
+180606 083449.564|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 083449.564|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 083449.564|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 34 QUEUED_FOR_COMPUTER_JUDGEMENT 1265 min 75906795ms from TEAM71 @ site 1 id Run-2476936345005192550 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 083450.624|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #376 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083451.804|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #380 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083451.804|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #380 ) recieveObject
+180606 083451.804|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 083451.804|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 083451.804|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 083451.814|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 34 JUDGED 1265 min 75906795ms from TEAM71 @ site 1 id Run-2476936345005192550 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 083451.814|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-7806379045062345403
+180606 083451.814|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #380 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 083451.814|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #380 ) handlePacket
+180606 083451.814|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 083451.814|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 083451.814|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 083451.814|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 34 JUDGED 1265 min 75906795ms from TEAM71 @ site 1 id Run-2476936345005192550 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 083451.814|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-7806379045062345403
+180606 083453.009|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #380 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091142.589|CONFIG|Thread-5|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+180606 091142.589|INFO|Thread-5|info|
+180606 091142.589|INFO|Thread-5|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+180606 091142.589|INFO|Thread-5|info|Login: team71 (aka team71)
+180606 091142.589|INFO|Thread-5|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+180606 091142.589|INFO|Thread-5|startLog|Process id is 7604@NguyenManhSon
+180606 091142.589|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 091142.605|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 091142.823|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+180606 091142.823|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #508 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091142.823|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #508 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091156.298|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for K Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\J.java
+180606 091156.298|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 091156.298|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 091156.423|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #510 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091156.423|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #510 ) recieveObject
+180606 091156.423|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091156.423|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 091156.423|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 51 QUEUED_FOR_COMPUTER_JUDGEMENT 1302 min 78133674ms from TEAM71 @ site 1 id Run--299984544559698033 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091156.423|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #510 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091156.423|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #510 ) handlePacket
+180606 091156.423|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091156.423|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 091156.423|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 51 QUEUED_FOR_COMPUTER_JUDGEMENT 1302 min 78133674ms from TEAM71 @ site 1 id Run--299984544559698033 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091158.392|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #514 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #514 ) recieveObject
+180606 091158.392|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091158.392|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 51 JUDGED 1302 min 78133674ms from TEAM71 @ site 1 id Run--299984544559698033 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Run-time Error--2511339395484401928 id JudgementRecord-2431405010256524788
+180606 091158.392|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #514 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #514 ) handlePacket
+180606 091158.392|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091158.392|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 51 JUDGED 1302 min 78133674ms from TEAM71 @ site 1 id Run--299984544559698033 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091158.392|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Run-time Error--2511339395484401928 id JudgementRecord-2431405010256524788
+180606 091159.470|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #514 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091200.001|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #510 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091253.650|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for K Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\J.java
+180606 091253.665|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 091253.665|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 091253.744|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #516 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091253.744|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #516 ) recieveObject
+180606 091253.744|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091253.744|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 091253.744|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 52 QUEUED_FOR_COMPUTER_JUDGEMENT 1303 min 78191028ms from TEAM71 @ site 1 id Run--2179692088197316885 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091253.744|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #516 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091253.744|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #516 ) handlePacket
+180606 091253.744|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091253.744|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 091253.744|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 52 QUEUED_FOR_COMPUTER_JUDGEMENT 1303 min 78191028ms from TEAM71 @ site 1 id Run--2179692088197316885 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091254.759|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #516 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091255.306|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #520 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #520 ) recieveObject
+180606 091255.306|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091255.306|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 52 JUDGED 1303 min 78191028ms from TEAM71 @ site 1 id Run--2179692088197316885 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--4912268604892941563
+180606 091255.306|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #520 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #520 ) handlePacket
+180606 091255.306|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 091255.306|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 52 JUDGED 1303 min 78191028ms from TEAM71 @ site 1 id Run--2179692088197316885 problem K--982968866390651714 lang Java--3806245834392794195
+180606 091255.306|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--4912268604892941563
+180606 091256.384|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #520 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142558.485|CONFIG|Thread-5|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+180606 142558.485|INFO|Thread-5|info|
+180606 142558.485|INFO|Thread-5|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+180606 142558.485|INFO|Thread-5|info|Login: team71 (aka team71)
+180606 142558.485|INFO|Thread-5|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+180606 142558.485|INFO|Thread-5|startLog|Process id is 20252@NguyenManhSon
+180606 142558.485|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 142558.497|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+180606 142558.755|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+180606 142558.771|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #660 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142558.771|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #660 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142615.490|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for J Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\J.java
+180606 142615.490|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142615.490|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142615.771|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #662 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142615.771|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #662 ) recieveObject
+180606 142615.771|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142615.771|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 142615.771|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 68 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 96992372ms from TEAM71 @ site 1 id Run-1362126659338129913 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 142615.771|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #662 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142615.771|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #662 ) handlePacket
+180606 142615.771|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142615.775|INFO|Thread-8|dumpPacket|    To: TEAM71 @ site 1
+180606 142615.775|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 68 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 96992372ms from TEAM71 @ site 1 id Run-1362126659338129913 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 142616.737|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #662 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142617.694|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #666 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142617.694|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #666 ) recieveObject
+180606 142617.694|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142617.710|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 68 JUDGED 1616 min 96992372ms from TEAM71 @ site 1 id Run-1362126659338129913 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--8132655264781861776
+180606 142617.710|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #666 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142617.710|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #666 ) handlePacket
+180606 142617.710|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142617.710|INFO|Thread-9|dumpPacket|    To: TEAM71 @ site 1
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 68 JUDGED 1616 min 96992372ms from TEAM71 @ site 1 id Run-1362126659338129913 problem J--5828947846158755564 lang Java--3806245834392794195
+180606 142617.710|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord--8132655264781861776
+180606 142618.791|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #666 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142624.275|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for K Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\K.java
+180606 142624.275|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142624.275|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142624.447|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #668 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142624.447|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #668 ) recieveObject
+180606 142624.447|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142624.447|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 142624.447|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 69 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 97001087ms from TEAM71 @ site 1 id Run--1853184832174384266 problem K--982968866390651714 lang Java--3806245834392794195
+180606 142624.447|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #668 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142624.447|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #668 ) handlePacket
+180606 142624.447|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142624.447|INFO|Thread-11|dumpPacket|    To: TEAM71 @ site 1
+180606 142624.447|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 69 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 97001087ms from TEAM71 @ site 1 id Run--1853184832174384266 problem K--982968866390651714 lang Java--3806245834392794195
+180606 142625.615|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #668 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142626.957|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #672 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142626.957|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #672 ) recieveObject
+180606 142626.957|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142626.957|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 142626.957|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142626.957|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 69 JUDGED 1616 min 97001087ms from TEAM71 @ site 1 id Run--1853184832174384266 problem K--982968866390651714 lang Java--3806245834392794195
+180606 142626.957|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-562038750783396304
+180606 142626.957|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #672 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142626.957|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #672 ) handlePacket
+180606 142626.957|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142626.961|INFO|Thread-12|dumpPacket|    To: TEAM71 @ site 1
+180606 142626.961|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142626.961|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 69 JUDGED 1616 min 97001087ms from TEAM71 @ site 1 id Run--1853184832174384266 problem K--982968866390651714 lang Java--3806245834392794195
+180606 142626.961|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-562038750783396304
+180606 142628.006|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #672 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142633.491|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for L Java file: C:\Users\Manh Son\Documents\NetBeansProjects\Luyentap1\src\Luyentap2\L.java
+180606 142633.491|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142633.491|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM71 @ site 1 -> SERVER0 @ site 1
+180606 142633.785|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #674 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142633.785|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #674 ) recieveObject
+180606 142633.785|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142633.785|INFO|Thread-14|dumpPacket|    To: TEAM71 @ site 1
+180606 142633.785|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 70 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 97010315ms from TEAM71 @ site 1 id Run--6994884650390349313 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 142633.801|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #674 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142633.801|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #674 ) handlePacket
+180606 142633.801|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142633.801|INFO|Thread-14|dumpPacket|    To: TEAM71 @ site 1
+180606 142633.801|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 70 QUEUED_FOR_COMPUTER_JUDGEMENT 1616 min 97010315ms from TEAM71 @ site 1 id Run--6994884650390349313 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 142636.024|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #678 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #678 ) recieveObject
+180606 142636.024|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142636.024|INFO|Thread-15|dumpPacket|    To: TEAM71 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 70 JUDGED 1616 min 97010315ms from TEAM71 @ site 1 id Run--6994884650390349313 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-5247917764829539172
+180606 142636.024|INFO|Thread-15|info|handlePacket start Packet[RUN_JUDGEMENT] #678 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #678 ) handlePacket
+180606 142636.024|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default-3389190138843485101)
+180606 142636.024|INFO|Thread-15|dumpPacket|    To: TEAM71 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 70 JUDGED 1616 min 97010315ms from TEAM71 @ site 1 id Run--6994884650390349313 problem L-1913644182119142328 lang Java--3806245834392794195
+180606 142636.024|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-799664626295814095 id JudgementRecord-5247917764829539172
+180606 142638.617|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #678 SERVER0 @ site 1 -> TEAM71 @ site 1
+180606 142639.303|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #674 SERVER0 @ site 1 -> TEAM71 @ site 1

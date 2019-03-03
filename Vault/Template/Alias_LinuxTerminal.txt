@@ -1,0 +1,19 @@
+alias cfpro='cd "Dropbox/PC25PTITSSLABS/Codeforces Problems"'
+alias cfrnd='cd "Dropbox/PC25PTITSSLABS/Codeforces Rounds"'
+alias prop1='cd "Dropbox/Coursera (completely legit)/Codeforces Proposals"'
+alias prop2='cd "Dropbox/Coursera (completely legit)/Codeforces Proposals 2"'
+alias cfgym='cd "Dropbox/PC25PTITSSLABS/Codeforces Gyms-VPs"'
+alias sslab='cd "Dropbox/PC25PTITSSLABS/"'
+alias sublime=/opt/sublime_text/sublime_text
+ 
+function akicmpl {
+  g++ -o ${1%%.*} -p -std=c++17 $1; echo 'Compilation process completed.'
+}
+ 
+function aki {
+  chmod +x $1 && ./$1
+}
+ 
+function akikaze {
+  akicmpl $1 && chmod +x ${1%%.*} && aki ${1%%.*}
+}

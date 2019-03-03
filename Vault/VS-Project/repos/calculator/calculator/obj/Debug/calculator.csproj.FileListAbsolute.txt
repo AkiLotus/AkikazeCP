@@ -1,0 +1,10 @@
+C:\Users\pkcor\source\repos\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\pkcor\source\repos\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\pkcor\source\repos\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.Calculator.resources
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\pkcor\source\repos\calculator\calculator\obj\Debug\calculator.pdb

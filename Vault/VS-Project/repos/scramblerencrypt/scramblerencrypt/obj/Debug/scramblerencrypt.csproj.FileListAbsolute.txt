@@ -1,0 +1,10 @@
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\bin\Debug\scramblerencrypt.exe.config
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\bin\Debug\scramblerencrypt.exe
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\bin\Debug\scramblerencrypt.pdb
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.csprojResolveAssemblyReference.cache
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.mainForm.resources
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.Properties.Resources.resources
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.csproj.GenerateResource.cache
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.csproj.CoreCompileInputs.cache
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.exe
+c:\users\pkcor\source\repos\scramblerencrypt\scramblerencrypt\obj\Debug\scramblerencrypt.pdb

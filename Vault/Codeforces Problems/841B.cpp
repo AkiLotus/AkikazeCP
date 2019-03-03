@@ -1,0 +1,33 @@
+/**************************************************
+* Code written by Thuy-Trang Tran (thuytrang12a2) *
+**************************************************/
+
+#include<bits/stdc++.h>
+#define ll long long
+#define ii pair<ll,ll>
+#define mp make_pair
+#define fi first
+#define se second
+#define MOD 1000000007
+using namespace std;
+
+int main() {
+//	freopen("input.txt","r",stdin);
+//	freopen("output.txt","w",stdout);
+	ios_base::sync_with_stdio(0); cin.tie(NULL);
+	ll n, odd = 0, even = 0; cin >> n;
+	vector<ll> a(n);
+	for (ll i=0; i<n; i++) {
+		cin >> a[i];
+		if (a[i] % 2 != 0) odd++;
+	}
+	if (odd == 0) {
+		cout << "Second"; return 0;
+	}
+	if (odd % 2 == 0) {
+		cout << "First"; return 0;
+	}
+	cout << "First";
+	return 0;
+}
+

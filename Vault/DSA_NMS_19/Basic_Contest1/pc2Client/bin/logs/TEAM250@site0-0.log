@@ -1,0 +1,24 @@
+181015 073850.694|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+181015 073850.694|INFO|AWT-EventQueue-0|info|
+181015 073850.694|INFO|AWT-EventQueue-0|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+181015 073850.694|INFO|AWT-EventQueue-0|info|Login: team250 (aka team250)
+181015 073850.694|INFO|AWT-EventQueue-0|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+181015 073850.694|INFO|AWT-EventQueue-0|startLog|Process id is 7900@NguyenManhSon
+181015 073850.694|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.88.119:50002 as TEAM250 @ site 0
+181015 073850.694|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM250 @ site 0
+181015 073850.709|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM250 @ site 0 -> SERVER0 @ site 0
+181015 073850.709|INFO|Thread-4|run|send(Serializable)
+181015 073850.709|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM250 @ site 0 -> SERVER0 @ site 0
+181015 073850.709|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+181015 073851.022|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+181015 073851.022|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_FAILED] #1345 SERVER0 @ site 1 -> TEAM250 @ site 0
+181015 073851.022|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #1345 ) recieveObject
+181015 073851.022|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 073851.022|INFO|Thread-5|dumpPacket|    To: TEAM250 @ site 0
+181015 073851.022|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Account inactive
+181015 073851.022|INFO|Thread-5|info|handlePacket start Packet[LOGIN_FAILED] #1345 SERVER0 @ site 1 -> TEAM250 @ site 0
+181015 073851.022|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #1345 ) handlePacket
+181015 073851.022|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (WIN-GAG3RVQSL34 @ 10.99.3.97) (Contest Id: Default--7218516943216387871)
+181015 073851.022|INFO|Thread-5|dumpPacket|    To: TEAM250 @ site 0
+181015 073851.022|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Account inactive
+181015 073851.740|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #1345 SERVER0 @ site 1 -> TEAM250 @ site 0

@@ -1,0 +1,10 @@
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\bin\Debug\guessnumber.exe.config
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\bin\Debug\guessnumber.exe
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\bin\Debug\guessnumber.pdb
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.csprojResolveAssemblyReference.cache
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.mainForm.resources
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.Properties.Resources.resources
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.csproj.GenerateResource.cache
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.csproj.CoreCompileInputs.cache
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.exe
+C:\Users\pkcor\source\repos\guessnumber\guessnumber\obj\Debug\guessnumber.pdb

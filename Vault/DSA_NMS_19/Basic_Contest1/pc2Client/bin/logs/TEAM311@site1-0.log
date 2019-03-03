@@ -1,0 +1,11 @@
+180302 101331.767|CONFIG|Thread-5|setFileHandlers|Now logging to E:\PC2\Others\pc2Client\bin\logs directory.
+180302 101331.767|INFO|Thread-5|info|
+180302 101331.767|INFO|Thread-5|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_101 build 4653 Windows 10 10.0 (amd64) 
+180302 101331.767|INFO|Thread-5|info|Login: team311 (aka team311)
+180302 101331.768|INFO|Thread-5|startLog|Working directory is E:\PC2\Others\pc2Client\bin
+180302 101331.768|INFO|Thread-5|startLog|Process id is 13272@NguyenManhSon
+180302 101331.768|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+180302 101331.777|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+180302 101332.015|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+180302 101332.021|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #58 SERVER0 @ site 1 -> TEAM311 @ site 1
+180302 101332.022|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #58 SERVER0 @ site 1 -> TEAM311 @ site 1

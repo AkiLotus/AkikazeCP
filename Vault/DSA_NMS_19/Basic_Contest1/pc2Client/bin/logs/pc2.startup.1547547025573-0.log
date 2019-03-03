@@ -1,0 +1,20 @@
+190115 101025.626|CONFIG|main|setFileHandlers|Now logging to /home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin/logs directory.
+190115 101025.631|INFO|main|info|
+190115 101025.637|INFO|main|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 10.0.2 build 4653 Linux 4.15.0-43-generic (amd64) 
+190115 101025.637|INFO|main|startLog|Working directory is /home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin
+190115 101025.686|INFO|main|startLog|Process id is 16836@AkiLinux
+190115 101025.686|INFO|main|start|Starting ConnectionManager...
+190115 101025.766|INFO|main|start|Started ConnectionManager
+190115 101025.767|INFO|main|setClientServerAndPort|INIFile File location: file:/home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin/pc2v9.ini
+190115 101025.768|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 50002
+190115 101025.768|INFO|main|info|Contacting server at 203.162.88.119:50002
+190115 101025.769|INFO|main|connectToMyServer|Connecting to 203.162.88.119:50002
+190115 101236.712|INFO|main|<init>|IO Exception:203.162.88.119
+190115 101236.715|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+190115 101236.716|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out (Connection timed out)
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2663)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+190115 101236.720|INFO|main|info|Unable to contact server at 203.162.88.119:0 Connection timed out (Connection timed out)

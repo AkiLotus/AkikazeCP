@@ -1,0 +1,7 @@
+set HOME=E:\AkiGithub\Vault
+set PATH=%ConEmuBaseDir%\Scripts;%PATH%
+ 
+alias katecpp=kate $*.cpp
+alias compile17=g++ -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -D_FORTIFY_SOURCE=2 -O2 -o $* -std=c++17 $*.cpp
+alias build17=g++ -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -D_FORTIFY_SOURCE=2 -O2 -o $* -std=c++17 $*.cpp & $*
+alias wipebin=del /f /s *.o *.exe

@@ -1,0 +1,30 @@
+190114 143227.584|CONFIG|main|setFileHandlers|Now logging to /home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin/logs directory.
+190114 143227.591|INFO|main|info|
+190114 143227.597|INFO|main|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 10.0.2 build 4653 Linux 4.15.0-43-generic (amd64) 
+190114 143227.598|INFO|main|startLog|Working directory is /home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin
+190114 143227.663|INFO|main|startLog|Process id is 11362@AkiLinux
+190114 143227.663|INFO|main|start|Starting ConnectionManager...
+190114 143227.747|INFO|main|start|Started ConnectionManager
+190114 143227.749|INFO|main|setClientServerAndPort|INIFile File location: file:/home/akilotus/AkiGithub/akikazecp/Vault/DSA_NMS_19/Basic_Contest1/pc2Client/bin/pc2v9.ini
+190114 143227.750|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 50002
+190114 143227.750|INFO|main|info|Contacting server at 203.162.88.119:50002
+190114 143227.751|INFO|main|connectToMyServer|Connecting to 203.162.88.119:50002
+190114 143227.833|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/203.162.88.119,port=50002,localport=58108]--4591850911212803921)
+190114 143227.893|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/203.162.88.119,port=50002,localport=58108]--4591850911212803921 key is com.sun.crypto.provider.DESKey@1853a
+190114 143227.893|INFO|Thread-0|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+190114 143227.895|INFO|Thread-0|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1f27b698 86045d52 bcb220cb 9e6253b2 01132239 c8cadccb a531de39 bf6a09e1
+    72a2ece0 04b67c9b 95ffb0f9 584b5d60 d698338c a8b996f2 4fd59362 9dadcf56
+    e565ed9b 4258f553 d84bc2df 2f1144df 746d6208 07879494 dc206bda f2adc80e
+    b8523c8f 346b2131 6cf9e5f8 324e9893 98ecc944 c003951e 7a5bb74f 0e4b6ecc
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+190114 143227.896|INFO|Thread-0|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@3ddc9d71

@@ -1,0 +1,9 @@
+C:\Users\pkcor\source\repos\logintest\logintest\bin\Debug\logintest.exe
+C:\Users\pkcor\source\repos\logintest\logintest\bin\Debug\logintest.pdb
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.csprojResolveAssemblyReference.cache
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.mainForm.resources
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.Properties.Resources.resources
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.csproj.GenerateResource.cache
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.csproj.CoreCompileInputs.cache
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.exe
+C:\Users\pkcor\source\repos\logintest\logintest\obj\Debug\logintest.pdb
