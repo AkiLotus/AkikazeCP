@@ -33,14 +33,19 @@ using namespace std;
 #define mp make_pair
 #define fi first
 #define se second
-typedef vector<i64> vi;
-typedef vector<ld> vd;
+typedef vector<i64> vl;
+typedef vector<int> vi;
+typedef vector<ld> vld;
+typedef vector<double> vd;
 typedef vector<string> vs;
 typedef vector<char> vc;
 typedef vector<bool> vb;
-typedef pair<i64, i64> pii;
-typedef pair<i64, pii> pip;
-typedef pair<pii, i64> ppi;
+typedef pair<i64, i64> pll;
+typedef pair<i64, pii> plp;
+typedef pair<pii, i64> ppl;
+typedef pair<int, int> pii;
+typedef pair<int, pii> pip;
+typedef pair<pii, int> ppi;
 const long long Mod = 1000000007LL, INF = 1e9, LINF = 1e18;
 const long double Pi = 3.141592653589793116, EPS = 1e-9, Gold = ((1+sqrt(5))/2);
 long long keymod[] = {1000000007LL, 1000000009LL, 1000000021LL, 1000000033LL};
