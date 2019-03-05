@@ -14,12 +14,16 @@
 ***********************************************/
 
 /************** [OPTIMIZATION PROTOCOL] **************/
+#pragma comment(linker, "/stack:225450978")
 #pragma GCC optimize("Ofast")
 /*****************************************************/
 
 /************** [LIBRARY PROTOCOL] **************/
 #include <bits/stdc++.h>
 using namespace std;
+
+#include <ext/pb_ds/assoc_container.hpp>
+using namespace __gnu_pbds;
 /************************************************/
 
 /************** [GNU OMISSIONS] **************/
@@ -81,18 +85,39 @@ string cppstr_outfile = "FILE.OUT";
 /*********************************************************/
 
 /************** [GLOBAL VARIABLES] **************/
-
+int n, a, b; string s;
 /************************************************/
 
 /************** [FUNCTIONS] **************/
-
+vi Z_Algo(string S) {
+	vi z(S.size()); i64 x = 0, y = 0;
+	for (i64 i=1; i<S.size(); i++) {
+		z[i] = max(0LL, min(z[i-x], y-i+1));
+		while (i+z[i] < S.size() && S[z[i]] == S[i+z[i]]) {
+			x = i; y = i + z[i]; z[i]++;
+		}
+	}
+	return z;
+}
 
 void Input() {
-	
+	cin >> n >> a >> b >> s;
 }
 
 void Solve() {
-	
+	vector<int> dp(n, INF); dp[0] = a;
+	for (int i=1; i<n; i++) {
+		dp[i] = min(dp[i], dp[i-1] + a);
+		string Token = s.substr(i); Token += "#";
+		Token += s.substr(0, i);
+		vi Z = Z_Algo(Token);
+		int maxj = i - 1;
+		for (int x=n-i+1; x<Token.size(); x++) {
+			if (Z[x] > 0) maxj = max(maxj, (int)(i+Z[x]-1));
+		}
+		for (int x=i; x<=maxj; x++) dp[x] = min(dp[x], dp[i-1] + b);
+	}
+	cout << dp[n-1] << endl;
 }
 /*****************************************/
 

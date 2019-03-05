@@ -99,24 +99,32 @@ void Solve() {
 	vector<int> CurCnt(500001, 0); int Rem = s;
 	for (int i=0; i<s; i++) SchematicCnt[b[i]]++;
 	int MaxToDelete = m - k * n;
-	for (int j=0; j<m; j++) {
+	
+	for (int i=0, j=0; j<m; j++) {
 		CurCnt[a[j]]++;
 		Rem -= (CurCnt[a[j]] <= SchematicCnt[a[j]]);
 		
-		tracker2(Rem, j);
-		
-		if (j >= k-1) {
-			int i = j - k + 1;
-			int ToDelete = i % k;
-			if (Rem == 0 && ToDelete <= MaxToDelete) {
-				cout << ToDelete << endl;
-				for (int z=1; z<=ToDelete; z++) cout << z << " ";
+		while (j - i + 1 >= k && Rem == 0) {
+			int ToDelete_Front = i % k;
+			int ToDelete_Interior = (j - i + 1) - k;
+			if (ToDelete_Front + ToDelete_Interior <= MaxToDelete) {
+				cout << (ToDelete_Front + ToDelete_Interior) << endl;
+				for (int z=1; z<=ToDelete_Front; z++) cout << z << " ";
+				vector<int> tmpcnt(500001, 0); int del = 0;
+				for (int x=i; x<=j && del < ToDelete_Interior; x++) {
+					tmpcnt[a[x]]++;
+					if (tmpcnt[a[x]] > SchematicCnt[a[x]]) cout << (x+1) << " ", del++;
+				}
 				cout << endl; return;
 			}
-			CurCnt[a[i]]--;
-			Rem += (CurCnt[a[i]] < SchematicCnt[a[i]]);
+			else {
+				CurCnt[a[i]]--;
+				Rem += (CurCnt[a[i]] < SchematicCnt[a[i]]);
+				i = i + 1;
+			}
 		}
 	}
+	
 	cout << "-1\n";
 }
 /*****************************************/

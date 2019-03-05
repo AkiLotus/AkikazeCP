@@ -81,18 +81,60 @@ string cppstr_outfile = "FILE.OUT";
 /*********************************************************/
 
 /************** [GLOBAL VARIABLES] **************/
-
+int n; vector<int> c; vi dp;
+vector<vector<int>> adj;
+vector<vector<int>> DependencyList;
+set<int> FinalList;
 /************************************************/
 
 /************** [FUNCTIONS] **************/
-
+void DFS_GetList(int z, int last, vector<int> &MaxLeaf, vector<int> &MaxID, vector<int> &MaxCnt) {
+	dp[z] = 0;
+	bool isLeaf = true;
+	for (auto t: adj[z]) {
+		if (t == last) continue;
+		isLeaf = false;
+		DFS_GetList(t, z, MaxLeaf, MaxID, MaxCnt); dp[z] += dp[t];
+		if (MaxLeaf[t] >= MaxLeaf[z]) MaxID[z] = MaxID[t];
+		if (MaxLeaf[t] > MaxLeaf[z]) MaxCnt[z] = MaxCnt[t];
+		else if (MaxLeaf[t] == MaxLeaf[z]) MaxCnt[z] += MaxCnt[t];
+		MaxLeaf[z] = max(MaxLeaf[z], MaxLeaf[t]);
+	}
+	if (isLeaf) {
+		MaxLeaf[z] = dp[z] = c[z]; MaxID[z] = z; MaxCnt[z] = 1;
+		DependencyList[z].pub(z); return;
+	}
+	int MaxRemovable = -MaxLeaf[z];
+	if (MaxRemovable + c[z] > 0) return;
+	if (MaxRemovable + c[z] < 0 && MaxCnt[z] == 1) {
+		DependencyList[MaxID[z]].clear();
+	}
+	if (MaxCnt[z] == 1) DependencyList[MaxID[z]].pub(z);
+	else {
+		DependencyList[z].pub(z);
+		MaxID[z] = z;
+	}
+	dp[z] += (MaxRemovable + c[z]); MaxLeaf[z] = c[z]; MaxCnt[z] = 1;
+}
 
 void Input() {
-	
+	cin >> n; c.rsz(n); dp.rsz(n); adj.rsz(n);
+	DependencyList.rsz(n);
+	for (auto &z: c) cin >> z;
+	for (int i=1; i<n; i++) {
+		int a, b; cin >> a >> b; a--; b--;
+		adj[a].pub(b); adj[b].pub(a);
+	}
 }
 
 void Solve() {
-	
+	vector<int> MaxLeaf(n, -1), MaxID(n, -1), MaxCnt(n, 0);
+	DFS_GetList(0, -1, MaxLeaf, MaxID, MaxCnt);
+	for (int id=0; id<n; id++) {
+		for (auto z: DependencyList[id]) FinalList.insert(z+1);
+	}
+	cout << dp[0] << " " << FinalList.size() << endl;
+	for (auto it=FinalList.begin(); it!=FinalList.end(); it++) cout << (*it) << " "; cout << endl;
 }
 /*****************************************/
 
