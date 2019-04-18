@@ -1,7 +1,7 @@
-i64 n, m, a, b; vector<vi> adj;
-vector<vi> Table; vi d, subtree;
+int n, m, a, b; vector<vector<int>> adj;
+vector<vector<int>> Table; vector<int> d, subtree;
 
-void DFS(i64 z, i64 last) {
+void DFS(int z, int last) {
 	if (z != 0) d[z] = d[last] + 1;
 	for (auto t: adj[z]) {
 		if (t == last) continue;
@@ -11,44 +11,44 @@ void DFS(i64 z, i64 last) {
 }
 
 void Preprocess() {
-	subtree.rsz(n, 1); Table.rsz(n);
-	d.rsz(n, 0); DFS(0, -1);
-	for (i64 j=1; j<17; j++) {
-		for (i64 i=0; i<n; i++) {
+	subtree.resize(n, 1); Table.resize(n);
+	d.resize(n, 0); DFS(0, -1);
+	for (int j=1; j<17; j++) {
+		for (int i=0; i<n; i++) {
 			if (Table[i].size() < j) continue;
 			if (Table[Table[i][j-1]].size() < j) continue;
-			Table[i].pub(Table[Table[i][j-1]][j-1]);
+			Table[i].push_back(Table[Table[i][j-1]][j-1]);
 		}
 	}
 }
 
-i64 ancestor(i64 node, i64 dist) {
+int ancestor(int node, int dist) {
 	if (dist == 0) return node;
-	for (i64 i=16; i>=0; i--) {
+	for (int i=16; i>=0; i--) {
 		if (dist >= (1LL << i)) {
 			return ancestor(Table[node][i], dist - (1LL << i));
 		}
 	}
 }
 
-i64 LCA(i64 x, i64 y) {
+int LCA(int x, int y) {
 	if (x == y) return x;
 	if (d[x] == d[y]) {
-		i64 id = 0, Init = min(Table[x].size(), Table[y].size()-1);
-		for (i64 i=Init; i>=0; i--) {
+		int id = 0, Init = min(Table[x].size(), Table[y].size()-1);
+		for (int i=Init; i>=0; i--) {
 			if (Table[x][i] != Table[y][i]) {id = i; break;}
 		}
 		return LCA(Table[x][id], Table[y][id]);
 	}
 	if (d[x] < d[y]) {
-		i64 mul = 1, id = 0;
+		int mul = 1, id = 0;
 		while (d[x] < d[y] - mul * 2) {
 			mul *= 2; id++;
 		}
 		return LCA(x, Table[y][id]);
 	}
 	if (d[x] > d[y]) {
-		i64 mul = 1, id = 0;
+		int mul = 1, id = 0;
 		while (d[y] < d[x] - mul * 2) {
 			mul *= 2; id++;
 		}
@@ -56,24 +56,24 @@ i64 LCA(i64 x, i64 y) {
 	}
 }
 
-i64 Dist(i64 x, i64 y) {
+int Dist(int x, int y) {
 	if (x == y) return 0;
 	if (d[x] == d[y]) {
-		i64 id = 0, Init = min(Table[x].size(), Table[y].size()-1);
-		for (i64 i=Init; i>=0; i--) {
+		int id = 0, Init = min(Table[x].size(), Table[y].size()-1);
+		for (int i=Init; i>=0; i--) {
 			if (Table[x][i] != Table[y][i]) {id = i; break;}
 		}
 		return ((1LL << id)*2 + Dist(Table[x][id], Table[y][id]));
 	}
 	if (d[x] < d[y]) {
-		i64 mul = 1, id = 0;
+		int mul = 1, id = 0;
 		while (d[x] < d[y] - mul * 2) {
 			mul *= 2; id++;
 		}
 		return ((1LL << id) + Dist(x, Table[y][id]));
 	}
 	if (d[x] > d[y]) {
-		i64 mul = 1, id = 0;
+		int mul = 1, id = 0;
 		while (d[y] < d[x] - mul * 2) {
 			mul *= 2; id++;
 		}
