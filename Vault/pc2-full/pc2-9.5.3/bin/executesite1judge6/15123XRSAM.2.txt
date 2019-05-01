@@ -1,2 +1,0 @@
-<?xml version="1.0"?>
-<result outcome =  "No - Wrong Answer" security = "15123XRSAM.2.txt">Answer and output file different at line  5</result>
