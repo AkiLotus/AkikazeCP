@@ -1,15 +1,10 @@
-/********************************************************
-*||  Code written by Akikaze                          ||*
-*||  Duy-Bach Le, #Team4T's Chief Executor            ||*
-*||  #Team4T Tertiary Flagship - Oblivion             ||*
-*||                                                   ||*
-*||  Written by a random fan of momocashew and Chiho  ||*
-********************************************************/
+/**********************************************
+*||  Code written by Akikaze                ||*
+*||  Duy-Bach Le, #Team4T's Chief Executor  ||*
+**********************************************/
 
-/***********************************************
-** File name: OriginalTemplate.cpp
-** Time created: Mon Apr 08 2019 14:26
-***********************************************/
+// File name: OriginalTemplate.cpp
+// Time created: Sat May 11 2019 14:01
 
 /************** [OPTIMIZATION PROTOCOL] **************/
 #pragma GCC optimize("Ofast")
@@ -44,7 +39,6 @@ int OImode = 0;
 int MultiTest = 0;
 int Interactive = 0;
 
-void ConfigMonitor();
 char infile[] = "FILE.IN";
 char outfile[] = "FILE.OUT";
 /*********************************************************/
@@ -67,19 +61,6 @@ void Solve() {
 
 /************** [MAIN] **************/
 int main(int argc, char* argv[]) {
-	ConfigMonitor();
-	ios_base::sync_with_stdio(false);
-	if (!Interactive) cin.tie(NULL);
-	
-	int T = 1; if (MultiTest) cin >> T;
-	while(T--) {Input(); Solve();}
-	
-	return 0;
-}
-/************************************/
-
-/************** [MASTER CONTROLS - PHASE 2] **************/
-void ConfigMonitor() {
 	#ifdef Akikaze
 		cout << "Source code by #Team4T-Akikaze.\n";
 		cout << "Input: " << ((OImode) ? infile : "stdin");
@@ -92,5 +73,13 @@ void ConfigMonitor() {
 			freopen(outfile, "w", stdout);
 		}
 	#endif
+	
+	ios_base::sync_with_stdio(false);
+	if (!Interactive) cin.tie(NULL);
+	
+	int T = 1; if (MultiTest) cin >> T;
+	while(T--) {Input(); Solve();}
+	
+	return 0;
 }
-/*********************************************************/
+/************************************/

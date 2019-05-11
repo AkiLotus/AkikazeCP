@@ -3,18 +3,13 @@
 		"prefix": "aki",
 		"scope": "cpp",
 		"body": [
-			"/********************************************************",
-			"*||  Code written by Akikaze                          ||*",
-			"*||  Duy-Bach Le, #Team4T's Chief Executor            ||*",
-			"*||  #Team4T Tertiary Flagship - Oblivion             ||*",
-			"*||                                                   ||*",
-			"*||  Written by a random fan of momocashew and Chiho  ||*",
-			"********************************************************/",
+			"/**********************************************",
+			"*||  Code written by Akikaze                ||*",
+			"*||  Duy-Bach Le, #Team4T's Chief Executor  ||*",
+			"**********************************************/",
 			"",
-			"/***********************************************",
-			"** File name: $TM_FILENAME",
-			"** Time created: $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_YEAR $CURRENT_HOUR:$CURRENT_MINUTE",
-			"***********************************************/",
+			"// File name: $TM_FILENAME",
+			"// Time created: $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_YEAR $CURRENT_HOUR:$CURRENT_MINUTE",
 			"",
 			"/************** [OPTIMIZATION PROTOCOL] **************/",
 			"#pragma GCC optimize(\"Ofast\")",
@@ -49,7 +44,6 @@
 			"int MultiTest = 0;",
 			"int Interactive = 0;",
 			"",
-			"void ConfigMonitor();",
 			"char infile[] = \"FILE.IN\";",
 			"char outfile[] = \"FILE.OUT\";",
 			"/*********************************************************/",
@@ -72,19 +66,6 @@
 			"",
 			"/************** [MAIN] **************/",
 			"int main(int argc, char* argv[]) {",
-				"\tConfigMonitor();",
-				"\tios_base::sync_with_stdio(false);",
-				"\tif (!Interactive) cin.tie(NULL);",
-				"\t",
-				"\tint T = 1; if (MultiTest) cin >> T;",
-				"\twhile(T--) {Input(); Solve();}",
-				"\t",
-				"\treturn 0;",
-			"}",
-			"/************************************/",
-			"",
-			"/************** [MASTER CONTROLS - PHASE 2] **************/",
-			"void ConfigMonitor() {",
 				"\t#ifdef Akikaze",
 					"\t\tcout << \"Source code by #Team4T-Akikaze.\\n\";",
 					"\t\tcout << \"Input: \" << ((OImode) ? infile : \"stdin\");",
@@ -97,8 +78,16 @@
 						"\t\t\tfreopen(outfile, \"w\", stdout);",
 					"\t\t}",
 				"\t#endif",
+				"\t",
+				"\tios_base::sync_with_stdio(false);",
+				"\tif (!Interactive) cin.tie(NULL);",
+				"\t",
+				"\tint T = 1; if (MultiTest) cin >> T;",
+				"\twhile(T--) {Input(); Solve();}",
+				"\t",
+				"\treturn 0;",
 			"}",
-			"/*********************************************************/"
+			"/************************************/"
 		],
 		"description": "Standard template of Akikaze."
 	},
@@ -189,7 +178,7 @@
 		"prefix": "rsz",
 		"scope": "cpp",
 		"body": [
-			"resize();"
+			"resize($0);"
 		],
 		"description": "resize method (C++)"
 	},
@@ -201,6 +190,15 @@
 			"push_back($0);"
 		],
 		"description": "push_back method (C++)"
+	},
+
+	"make_pair": {
+		"prefix": "mp",
+		"scope": "cpp",
+		"body": [
+			"make_pair($0, );"
+		],
+		"description": "make_pair method (C++)"
 	},
 
 	"pop_back": {
