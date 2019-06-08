@@ -39,8 +39,8 @@ int OImode = 0;
 int MultiTest = 0;
 int Interactive = 0;
 
-char infile[] = "FILE.IN";
-char outfile[] = "FILE.OUT";
+const char infile[] = "FILE.IN";
+const char outfile[] = "FILE.OUT";
 /*********************************************************/
 
 /************** [GLOBAL VARIABLES] **************/
@@ -69,15 +69,15 @@ int main(int argc, char* argv[]) {
 		cout << "Interactive-Mode: " << ((Interactive) ? "ON\n\n" : "OFF\n\n");
 	#else
 		if (OImode) {
-			freopen(infile, "r", stdin);
-			freopen(outfile, "w", stdout);
+			assert(freopen(infile, "r", stdin));
+			assert(freopen(outfile, "w", stdout));
 		}
 	#endif
 	
 	ios_base::sync_with_stdio(false);
 	if (!Interactive) cin.tie(NULL);
 	
-	int T = 1; if (MultiTest) cin >> T;
+	int T = 1; if (MultiTest) {cin >> T; cin.ignore();}
 	while(T--) {Input(); Solve();}
 	
 	return 0;
