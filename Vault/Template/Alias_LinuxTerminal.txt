@@ -1,19 +1,23 @@
-alias cfpro='cd "Dropbox/PC25PTITSSLABS/Codeforces Problems"'
-alias cfrnd='cd "Dropbox/PC25PTITSSLABS/Codeforces Rounds"'
-alias prop1='cd "Dropbox/Coursera (completely legit)/Codeforces Proposals"'
-alias prop2='cd "Dropbox/Coursera (completely legit)/Codeforces Proposals 2"'
-alias cfgym='cd "Dropbox/PC25PTITSSLABS/Codeforces Gyms-VPs"'
-alias sslab='cd "Dropbox/PC25PTITSSLABS/"'
-alias sublime=/opt/sublime_text/sublime_text
- 
-function akicmpl {
-  g++ -o ${1%%.*} -p -std=c++17 $1; echo 'Compilation process completed.'
+alias cfpro='cd "AkiGithub/akikazecp/Vault/Codeforces Problems"'
+alias cfrnd='cd "AkiGithub/akikazecp/Vault/Codeforces Rounds"'
+alias cfgym='cd "AkiGithub/akikazecp/Vault/Codeforces Gyms-VPs"'
+alias akigit='cd "AkiGithub/akikazecp/Vault/"'
+alias smartgit='pushd . && cd && cd Downloads/smartgit/bin && chmod +x smartgit.sh && ./smartgit.sh && popd'
+alias wipebin='find . -type f ( -name *.o -o -name *.exe ) -delete'
+alias bashrcedit='pushd . && cd && sudo gedit ~/.bashrc && popd'
+
+function akikate {
+  kate $1 & disown
+}
+
+function compile17 {
+  g++ -o $1.exe -std=c++17 $1.cpp; echo 'Compilation process completed.'
 }
  
 function aki {
-  chmod +x $1 && ./$1
+  chmod +x $1.exe && ./$1.exe
 }
  
-function akikaze {
-  akicmpl $1 && chmod +x ${1%%.*} && aki ${1%%.*}
+function build17 {
+  compile17 $1 && aki $1
 }
