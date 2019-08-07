@@ -61,13 +61,7 @@ void Solve() {
 
 /************** [MAIN] **************/
 int main(int argc, char* argv[]) {
-	#ifdef Akikaze
-		cout << "Source code by #Team4T-Akikaze.\n";
-		cout << "Input: " << ((OImode) ? infile : "stdin");
-		cout << " | Output: " << ((OImode) ? outfile : "stdout") << endl << endl;
-		cout << "MultiTest-Mode: " << ((MultiTest) ? "ON\n" : "OFF\n");
-		cout << "Interactive-Mode: " << ((Interactive) ? "ON\n\n" : "OFF\n\n");
-	#else
+	#ifndef Akikaze
 		if (OImode) {
 			assert(freopen(infile, "r", stdin));
 			assert(freopen(outfile, "w", stdout));
