@@ -1,10 +1,6 @@
-/**********************************************
-*||  Code written by Akikaze                ||*
-*||  Duy-Bach Le, #Team4T's Chief Executor  ||*
-**********************************************/
-
-// File name: OriginalTemplate.cpp
-// Time created: Sat May 11 2019 14:01
+/*********************************
+*||  Code written by Akikaze   ||*
+*********************************/
 
 /************** [OPTIMIZATION PROTOCOL] **************/
 #pragma GCC optimize("Ofast")
@@ -16,10 +12,10 @@ using namespace std;
 /************************************************/
 
 /************** [GNU OMISSIONS] **************/
-#define y0 withindarkness
-#define y1 apinklotusbloomed
-#define yn carryingapurplesoul
-#define j1 togetherformingtheTeam
+#define y0 Halcyon
+#define y1 citanLu
+#define yn noyclaH
+#define j1 Lunatic
 /*********************************************/
 
 /************** [LEGENDS/CONSTANTS] **************/
@@ -61,7 +57,13 @@ void Solve() {
 
 /************** [MAIN] **************/
 int main(int argc, char* argv[]) {
-	#ifndef Akikaze
+	#ifdef Akikaze
+		cout << "Source code by #Team4T-Akikaze.\n";
+		cout << "Input: " << ((OImode) ? infile : "stdin");
+		cout << " | Output: " << ((OImode) ? outfile : "stdout") << endl << endl;
+		cout << "MultiTest-Mode: " << ((MultiTest) ? "ON\n" : "OFF\n");
+		cout << "Interactive-Mode: " << ((Interactive) ? "ON\n\n" : "OFF\n\n");
+	#else
 		if (OImode) {
 			assert(freopen(infile, "r", stdin));
 			assert(freopen(outfile, "w", stdout));
