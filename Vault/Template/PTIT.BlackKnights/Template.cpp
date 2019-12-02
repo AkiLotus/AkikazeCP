@@ -3,10 +3,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define y0 withindarkness
-#define y1 apinklotusbloomed
-#define yn carryingapurplesoul
-#define j1 togetherformingtheTeam
+#define y0 Apo11o
+#define y1 Apo11o
+#define yn Apo11o
+#define j1 Apo11o
 
 #define endl '\n'
 #define i64 long long
@@ -31,7 +31,7 @@ void Solve() {
 
 int main(int argc, char* argv[]) {
 	ios_base::sync_with_stdio(false); cin.tie(NULL);
-	int T = 1; if (MultiTest) cin >> T;
+	int T = 1; if (MultiTest) {cin >> T; cin.ignore();}
 	while(T--) {Input(); Solve();}
 	return 0;
 }
