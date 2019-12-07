@@ -4,9 +4,9 @@
 using namespace std;
 
 #define y0 Apo11o
-#define y1 Apo11o
-#define yn Apo11o
-#define j1 Apo11o
+#define y1 Apo12o
+#define yn Apo13o
+#define j1 Apo14o
 
 #define endl '\n'
 #define i64 long long

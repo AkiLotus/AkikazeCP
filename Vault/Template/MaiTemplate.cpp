@@ -9,6 +9,7 @@ using namespace std;
 #define j1 ascendthroughtheirblood
 
 #define endl '\n'
+typedef long long i64;
 mt19937 rng32(chrono::steady_clock::now().time_since_epoch().count());
 mt19937_64 rng64(chrono::steady_clock::now().time_since_epoch().count());
 
