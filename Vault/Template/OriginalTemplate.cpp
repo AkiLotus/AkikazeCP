@@ -1,6 +1,7 @@
-/*********************************
-*||  Code written by Akikaze   ||*
-*********************************/
+/**********************************************
+*||  Code written by Akikaze                ||*
+*||  Duy-Bach Le, #Team4T's Chief Executor  ||*
+**********************************************/
 
 /************** [OPTIMIZATION PROTOCOL] **************/
 #pragma GCC optimize("Ofast")
@@ -12,10 +13,10 @@ using namespace std;
 /************************************************/
 
 /************** [GNU OMISSIONS] **************/
-#define y0 Halcyon
-#define y1 citanLu
-#define yn noyclaH
-#define j1 Lunatic
+#define y0 withindarkness
+#define y1 apinklotusbloomed
+#define yn carryingapurplesoul
+#define j1 togetherformingtheTeam
 /*********************************************/
 
 /************** [LEGENDS/CONSTANTS] **************/
@@ -57,13 +58,7 @@ void Solve() {
 
 /************** [MAIN] **************/
 int main(int argc, char* argv[]) {
-	#ifdef Akikaze
-		cout << "Source code by #Team4T-Akikaze.\n";
-		cout << "Input: " << ((OImode) ? infile : "stdin");
-		cout << " | Output: " << ((OImode) ? outfile : "stdout") << endl << endl;
-		cout << "MultiTest-Mode: " << ((MultiTest) ? "ON\n" : "OFF\n");
-		cout << "Interactive-Mode: " << ((Interactive) ? "ON\n\n" : "OFF\n\n");
-	#else
+	#ifndef Akikaze
 		if (OImode) {
 			assert(freopen(infile, "r", stdin));
 			assert(freopen(outfile, "w", stdout));
