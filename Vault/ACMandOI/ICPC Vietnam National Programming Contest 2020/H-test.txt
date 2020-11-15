@@ -1,0 +1,33 @@
+4
+4
+6 3 5 3
+5
+invite
+icpc
+party
+cat
+cow
+4
+6 3 5 4
+5
+invite
+icpc
+party
+cat
+cowy
+4
+6 3 5 4
+6
+cipc
+invite
+icpc
+party
+cat
+cowy
+4
+6 3 5 3
+4
+invite
+party
+cat
+cow
